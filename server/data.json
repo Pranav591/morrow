@@ -1,0 +1,561 @@
+{
+  "balanceAdjustment": -45277.66,
+  "transactions": [
+    {
+      "name": "Auto",
+      "amount": 52,
+      "category": "Transport",
+      "date": "2026-10-01",
+      "account": "UPI",
+      "type": "expense",
+      "note": "",
+      "id": "44943675-6244-4e22-ba7f-ade2e8cfe607"
+    },
+    {
+      "name": "pocket money",
+      "amount": 3000,
+      "category": "Income",
+      "date": "2026-09-30",
+      "account": "Main account",
+      "type": "income",
+      "note": "for food",
+      "id": "279a72f6-57d2-4689-ab8a-fb7d3e4bdee0"
+    },
+    {
+      "id": "csv-cf9e3559-bd01-4b15-b7ba-b3c3a4125e8a",
+      "category": "Income",
+      "type": "income",
+      "amount": 597,
+      "name": "Kaushik Ganiga",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-30",
+      "account": "Main account"
+    },
+    {
+      "id": "csv-2a95daab-b3bf-4213-8874-6e033a4d7cae",
+      "category": "Bills",
+      "type": "expense",
+      "amount": 399,
+      "name": "Bharti Airtel Limited",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-30",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-bf330dc9-4cb5-41ca-99b3-7ca6591a6142",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 48,
+      "name": "Sultanate of Shawarma",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-69f973fa-c674-4fbb-a674-c94027c315c7",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 90,
+      "name": "Anand Kumar M",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-51488421-f876-4d83-92bf-863b2e38f411",
+      "category": "Income",
+      "type": "income",
+      "amount": 200,
+      "name": "Kaushik Ganiga",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Main account"
+    },
+    {
+      "id": "csv-809d0611-692f-4d2e-ad99-714413b24624",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 55,
+      "name": "Manu Gowda",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-8be2c50a-14b7-4213-adbe-53bf0bdc3f17",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 49.4,
+      "name": "Ravikumar B P",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-1740dada-5231-4c9a-99fa-7ca2eedee717",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 110,
+      "name": "Sanju Tiwari",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-a015cb19-3736-49fe-9200-46bbe7071946",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 140,
+      "name": "Food1",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-8dfb04bb-310c-426b-9fe4-266a93172f7d",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 45,
+      "name": "Sri Venkateswara Condiments General Store",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-98b86130-c445-4818-897e-8890c6f31ac8",
+      "category": "Transport",
+      "type": "expense",
+      "amount": 40,
+      "name": "BMRCL Pattagere",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-402e5fc7-0a16-4a11-95c1-fdea978cb5f9",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 378,
+      "name": "Tata Starbucks Private Limited",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-29",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-fe2e7d69-83eb-4dc7-b0e3-4ee89a6b442a",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 50,
+      "name": "Ravi Kumar",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-28",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-b25e88fc-c50d-40c1-aa1b-dee078b94253",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 20,
+      "name": "Sri Venkateswara Condiments General Store",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-28",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-08962f23-c44a-4516-8f25-20b9ea1ff347",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 40,
+      "name": "Sri Venkateswara Condiments General Store",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-28",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-f9de43fc-56b7-4ed3-aad2-d952a9340fa2",
+      "category": "Income",
+      "type": "income",
+      "amount": 570,
+      "name": "Kaushik Ganiga",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-27",
+      "account": "Main account"
+    },
+    {
+      "id": "csv-adf32a0f-e7c6-4fb1-bb6d-693f5ca47c92",
+      "category": "Income",
+      "type": "income",
+      "amount": 400,
+      "name": "Devayani",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-27",
+      "account": "Main account"
+    },
+    {
+      "id": "csv-05fa510e-0cdd-4759-b11c-9abaddc4dcf8",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 4.98,
+      "name": "Dongle Cafe LLP",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-27",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-acec6a64-138f-4711-b67c-e8fdc56cc5d3",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 25,
+      "name": "Lokesh S",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-27",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-ecfa7996-d549-4da4-8554-2c349bbb1ae4",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 400,
+      "name": "Th Kumari",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-27",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-45a34408-a54c-4601-b313-ba0aa523f15f",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 145,
+      "name": "Pema Sherpa",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-26",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-0d56a05c-2632-494d-9250-a3d04cee7aa9",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 60,
+      "name": "H Sharathkumar Shetty",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-26",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-da5749c3-27ad-4114-97e1-93d25b920e98",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 80,
+      "name": "Oasis Restaurant",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-26",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-db01a7cf-e3ca-48d0-9ffc-e31e889fa99b",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 35,
+      "name": "Oasis Restaurant",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-26",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-17182592-1225-45c3-aafc-d9af598a438f",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 25,
+      "name": "Venkata Suba Reddy Guntaka",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-26",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-99b4c068-46b8-49fb-8e71-45d0c9431ddb",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 1177.06,
+      "name": "K533 KFC Sattva Divinity Bangalore",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-25",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-cb1e672c-9ac5-432a-a184-de08b64ecd83",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 389,
+      "name": "Tata Starbucks Private Limited",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-25",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-81d16f09-3d5a-40cc-b3bc-bc76c4d3852a",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 20,
+      "name": "Lokesh S",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-25",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-42d3e334-9bd6-4e4d-8f1e-013c9710b5ca",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 100,
+      "name": "Devara G",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-25",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-503848a4-3cc2-464e-bf00-b9eedab0577a",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 329,
+      "name": "Tazish",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-25",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-8fd842a3-20a9-4ffe-8e76-f69c43471b38",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 40,
+      "name": "Ganesh Datt Bhat",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-25",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-549818a8-85ce-4b87-8f06-e285f83c3778",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 30,
+      "name": "DJ Corner",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-55af6942-2eaf-4a92-9b00-9747d07452dc",
+      "category": "Health",
+      "type": "expense",
+      "amount": 17,
+      "name": "MedPlus Global Village Road",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-1bc3f505-d928-4710-9bd1-d32c9e804cf7",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 10,
+      "name": "Shruthi",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-0e2ed418-44b7-45a3-bcaa-ad4cd605b2d1",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 49.4,
+      "name": "Shashi Kumar G E",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-aa3adfa9-75be-4cd8-b5e9-15568df9fc4c",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 25,
+      "name": "Turkish Bounty",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-1404e475-4d42-4683-a6e7-1d10844c9626",
+      "category": "Health",
+      "type": "expense",
+      "amount": 40,
+      "name": "Sri Lakshmi Venkateshwara Medicals and General Store",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-8f2dffab-b8a0-4623-a301-bcae97c494e6",
+      "category": "Lifestyle",
+      "type": "expense",
+      "amount": 52,
+      "name": "Kiran S C",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "csv-3570ef5f-2051-4748-aa25-bd01b1260d0a",
+      "category": "Food & drink",
+      "type": "expense",
+      "amount": 40,
+      "name": "Sri Venkateswara Condiments General Store",
+      "note": "Imported from transactions_september_2026.csv",
+      "date": "2026-09-24",
+      "account": "Everyday card"
+    },
+    {
+      "id": "tx-1",
+      "name": "Monthly salary",
+      "category": "Income",
+      "account": "Main account",
+      "date": "2026-09-01",
+      "amount": 78000,
+      "type": "income",
+      "note": "Salary · Acme Studio"
+    },
+    {
+      "id": "tx-2",
+      "name": "Apartment rent",
+      "category": "Bills",
+      "account": "Main account",
+      "date": "2026-09-02",
+      "amount": 18500,
+      "type": "expense",
+      "note": "Monthly rent"
+    },
+    {
+      "id": "tx-3",
+      "name": "Groceries",
+      "category": "Food & drink",
+      "account": "Everyday card",
+      "date": "2026-09-03",
+      "amount": 1840,
+      "type": "expense",
+      "note": "FreshMart"
+    },
+    {
+      "id": "tx-4",
+      "name": "Metro pass",
+      "category": "Transport",
+      "account": "Everyday card",
+      "date": "2026-09-05",
+      "amount": 1200,
+      "type": "expense",
+      "note": "Monthly pass"
+    },
+    {
+      "id": "tx-5",
+      "name": "Design books",
+      "category": "Shopping",
+      "account": "Everyday card",
+      "date": "2026-09-07",
+      "amount": 960,
+      "type": "expense",
+      "note": "Paperback editions"
+    },
+    {
+      "id": "tx-6",
+      "name": "Dinner with friends",
+      "category": "Food & drink",
+      "account": "Everyday card",
+      "date": "2026-09-09",
+      "amount": 1420,
+      "type": "expense",
+      "note": "The Green Table"
+    },
+    {
+      "id": "tx-7",
+      "name": "Electricity",
+      "category": "Bills",
+      "account": "Main account",
+      "date": "2026-09-11",
+      "amount": 2150,
+      "type": "expense",
+      "note": "Utility bill"
+    },
+    {
+      "id": "tx-8",
+      "name": "Yoga membership",
+      "category": "Health",
+      "account": "Everyday card",
+      "date": "2026-09-13",
+      "amount": 1800,
+      "type": "expense",
+      "note": "Monthly membership"
+    },
+    {
+      "id": "tx-9",
+      "name": "Freelance project",
+      "category": "Income",
+      "account": "Main account",
+      "date": "2026-09-15",
+      "amount": 12500,
+      "type": "income",
+      "note": "Brand identity project"
+    },
+    {
+      "id": "tx-10",
+      "name": "Coffee & pastry",
+      "category": "Food & drink",
+      "account": "Everyday card",
+      "date": "2026-09-17",
+      "amount": 385,
+      "type": "expense",
+      "note": "Sunday morning"
+    },
+    {
+      "id": "tx-11",
+      "name": "Cab ride",
+      "category": "Transport",
+      "account": "Everyday card",
+      "date": "2026-09-19",
+      "amount": 540,
+      "type": "expense",
+      "note": "Airport drop"
+    },
+    {
+      "id": "tx-12",
+      "name": "Streaming",
+      "category": "Lifestyle",
+      "account": "Everyday card",
+      "date": "2026-09-21",
+      "amount": 649,
+      "type": "expense",
+      "note": "Monthly subscription"
+    }
+  ],
+  "budgets": [
+    {
+      "category": "Food & drink",
+      "limit": 9000
+    },
+    {
+      "category": "Transport",
+      "limit": 5000
+    },
+    {
+      "category": "Shopping",
+      "limit": 8000
+    },
+    {
+      "category": "Bills",
+      "limit": 24000
+    },
+    {
+      "category": "Health",
+      "limit": 4500
+    },
+    {
+      "category": "Lifestyle",
+      "limit": 6000
+    }
+  ]
+}

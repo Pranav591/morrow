@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav_1rua4scs0077 Report</title>
+    <style>
+      :root {
+        --page-bg: #ffffff;
+        --text: #111111;
+        --muted: #333333;
+        --border: #1a1a1a;
+        --heading: #000000;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: var(--page-bg);
+        color: var(--text);
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      body {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 48px 56px 72px;
+        line-height: 1.7;
+        font-size: 12pt;
+      }
+
+      h1, h2, h3, h4 {
+        font-family: "Times New Roman", Times, serif;
+        color: var(--heading);
+        margin-top: 1.2em;
+        margin-bottom: 0.4em;
+        page-break-after: avoid;
+      }
+
+      h1 {
+        font-size: 24pt;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 0.3em;
+      }
+
+      h2 {
+        font-size: 16pt;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
+
+      h3 {
+        font-size: 13pt;
+      }
+
+      p, li {
+        text-align: justify;
+        margin: 0.35em 0;
+      }
+
+      ul, ol {
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        padding-left: 1.5em;
+      }
+
+      .title-block {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+
+      .title-block .project {
+        font-size: 18pt;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      .meta {
+        margin-top: 18px;
+        line-height: 1.8;
+        text-align: center;
+      }
+
+      .section {
+        margin-top: 18px;
+      }
+
+      .signature {
+        margin-top: 36px;
+        text-align: right;
+        font-weight: bold;
+      }
+
+      .page-break {
+        page-break-before: always;
+      }
+
+      @media print {
+        body {
+          margin: 0;
+          padding: 0.5in 0.6in;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-block">
+      <h1>MORROW</h1>
+      <div class="project">Personal Finance Management Application</div>
+      <div class="meta">
+        <div><strong>Student Name:</strong> Pranav</div>
+        <div><strong>Register Number:</strong> 1RUA4SCS0077</div>
+        <div><strong>Course / Department:</strong> B.Tech / Computer Science</div>
+        <div><strong>Academic Year:</strong> 2026</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Abstract</h2>
+      <p>
+        The project titled <strong>Morrow</strong> is a personal finance management web application designed to help users manage income,
+        expenditure, budgets, and financial reports efficiently. The system provides a clean dashboard where users can add, track,
+        and categorize transactions while maintaining visibility into their monthly financial health. By combining local data persistence,
+        modular React components, and a lightweight Express API, the project offers a practical and responsive user experience for day-to-day financial planning.
+      </p>
+      <p>
+        Morrow allows users to monitor income and expenses, review budget progress, import CSV data, generate category-wise reports,
+        and manage multiple financial workspaces. The system is built using React, Vite, and Express.js, making it efficient,
+        scalable, and easy to extend for future enhancements such as authentication, cloud storage, and advanced forecasting.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Keywords</h2>
+      <p>Personal Finance, Budget Tracking, Expense Management, React, Vite, Express, CSV Import, Financial Dashboard</p>
+    </div>
+
+    <div class="section">
+      <h2>Introduction</h2>
+      <p>
+        In the modern digital era, personal financial management has become an essential part of everyday life. Many users struggle to
+        keep track of income, recurring expenses, and savings goals because traditional methods such as paper notes or spreadsheets are often
+        inconvenient and difficult to analyze. A personal finance application helps individuals understand their spending habits, reduce unnecessary
+        costs, and make better financial decisions.
+      </p>
+      <p>
+        The Morrow application addresses this challenge by providing a user-friendly finance workspace for tracking transactions, setting budgets,
+        and reviewing financial insights. It brings together dashboards, monthly summaries, budget analysis, and reporting tools into a single platform.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Problem Statement</h2>
+      <p>
+        Many individuals do not have an organized system to monitor their financial activities. They often lose track of where money is being spent,
+        fail to compare expenses against their budget, and find it difficult to identify trends over time. Without a digital management solution,
+        financial planning becomes time-consuming and error-prone.
+      </p>
+      <p>
+        This project aims to solve that issue by offering an easy-to-use finance dashboard that helps users record transactions, understand their
+        cash flow, and manage spending across different categories and accounts.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Objectives</h2>
+      <ul>
+        <li>To develop a responsive personal finance management system.</li>
+        <li>To allow users to record and manage income and expense transactions.</li>
+        <li>To provide budget monitoring and monthly financial summaries.</li>
+        <li>To generate category-wise spending and financial reports.</li>
+        <li>To support CSV import/export for data management.</li>
+        <li>To create a modular architecture for easy future enhancement.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>System Overview</h2>
+      <p>
+        Morrow is implemented as a web-based application that combines a React frontend with an Express backend. The frontend is responsible for
+        presenting pages such as Overview, Transactions, Budgets, Reports, Accounts, Import CSV, and Settings. The backend stores financial data
+        in JSON files and exposes endpoints for transactions, budgets, and app state. A local browser storage fallback is also included so that the
+        app remains functional even when the API is unavailable.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Features of the Application</h2>
+      <ul>
+        <li><strong>Overview Dashboard:</strong> Displays total income, total expenses, balance, and monthly insights.</li>
+        <li><strong>Transactions Management:</strong> Allows adding, searching, filtering, and deleting income and expense records.</li>
+        <li><strong>Budget Tracking:</strong> Enables users to set spending limits by category and monitor remaining amounts.</li>
+        <li><strong>Reports:</strong> Provides spending breakdowns and monthly trends for better analysis.</li>
+        <li><strong>Accounts:</strong> Offers account-level financial summaries and balances.</li>
+        <li><strong>CSV Import and Export:</strong> Supports importing historical financial data and exporting transaction data.</li>
+        <li><strong>Multi-Workspace Support:</strong> Lets users manage more than one finance workspace or account space.</li>
+        <li><strong>Custom Themes:</strong> Allows users to change interface themes and accent colors.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technologies Used</h2>
+      <ul>
+        <li><strong>Frontend:</strong> React.js, Vite, React Router DOM</li>
+        <li><strong>Backend:</strong> Node.js, Express.js</li>
+        <li><strong>Styling:</strong> CSS and component-based design</li>
+        <li><strong>State Management:</strong> Local state with browser-local persistence and API synchronization</li>
+        <li><strong>Data Storage:</strong> JSON file-based persistence</li>
+        <li><strong>Libraries:</strong> Lucide icons, custom formatting utilities</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>System Architecture</h2>
+      <p>
+        The application architecture follows a modular three-layer structure. The <strong>presentation layer</strong> is built with React and contains pages and reusable UI components. The <strong>application logic layer</strong> is implemented through custom hooks and helper functions that manage state, calculations, and persistence. The <strong>data layer</strong> uses an Express API and JSON-based storage for saving and retrieving records.
+      </p>
+      <p>
+        This architecture improves maintainability because each feature is separated into logically organized folders such as pages, hooks, services, styles, and data. It also supports easy updating of functionality without disrupting the rest of the application.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Implementation Details</h2>
+      <p>
+        The project was implemented in a modular structure using React components. The main application shell is defined in <strong>FinanceApp.jsx</strong>, where navigation, route handling, workspace selection, theme configuration, and transaction export functions are managed. Each financial screen is separated into its own page component to keep the application scalable and organized.
+      </p>
+      <p>
+        The data logic is handled by the custom hook <strong>useFinanceData.js</strong>, which manages transactions, budgets, and local storage operations. Budget calculations and financial summaries are derived in real time to provide instant feedback to the user. The API included in the server layer exposes routes for retrieving and updating state, transactions, and budget information.
+      </p>
+      <p>
+        The project also supports CSV import workflows, category-based reporting, and theme customization, which makes the app useful for both personal tracking and practical financial overview.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Modules / Screens</h2>
+      <ul>
+        <li><strong>Overview Page:</strong> Displays summary cards and key financial insights.</li>
+        <li><strong>Transactions Page:</strong> Handles adding, editing, filtering, and deleting records.</li>
+        <li><strong>Budgets Page:</strong> Tracks monthly limits by category and remaining values.</li>
+        <li><strong>Reports Page:</strong> Shows category breakdown and spending trends.</li>
+        <li><strong>Accounts Page:</strong> Shows balances and account-wise financial insights.</li>
+        <li><strong>Import Page:</strong> Allows CSV data upload and preview before saving.</li>
+        <li><strong>Settings Page:</strong> Supports theme selection and customization preferences.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Testing and Validation</h2>
+      <p>
+        The application was validated through functional testing of the core workflows, including transaction creation, budget updates, CSV import,
+        and report generation. The design was checked for responsiveness and usability to ensure the interface works well on both desktop and mobile devices.
+      </p>
+      <p>
+        Testing confirmed that the app can efficiently update summaries in real time, store data locally, and maintain clear financial visibility for the user.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Advantages</h2>
+      <ul>
+        <li>Simple and intuitive user interface.</li>
+        <li>Real-time financial summary updates.</li>
+        <li>Budget and transaction tracking in one place.</li>
+        <li>Responsive design and multi-workspace support.</li>
+        <li>Easy data export and import features.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Limitations and Future Scope</h2>
+      <p>
+        At present, the system is designed as a personal finance workspace and does not include advanced authentication, database integration,
+        or cloud synchronization. However, the architecture is modular and can be extended to support secure login, multi-user dashboards, predictive
+        analytics, recurring expenses, and AI-based financial recommendations in future versions.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Conclusion</h2>
+      <p>
+        The Morrow project successfully demonstrates the development of a practical personal finance management system using modern web technologies.
+        It combines financial tracking, budgeting, reporting, and data import/export into a single platform that is responsive, modular, and user-friendly.
+        The project meets the essential objectives of personal finance management and provides a strong foundation for future expansion into a more advanced financial planning tool.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>References</h2>
+      <ul>
+        <li>React Documentation</li>
+        <li>Vite Documentation</li>
+        <li>Express.js Documentation</li>
+        <li>Project README and implementation source code</li>
+      </ul>
+    </div>
+
+    <div class="signature">
+      <p>Submitted by: Pranav</p>
+      <p>Register Number: 1RUA4SCS0077</p>
+    </div>
+  </body>
+</html>
