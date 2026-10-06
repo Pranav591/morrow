@@ -84,7 +84,7 @@ function OverviewPage({ transactions, budgets, summary, onAdd, onExport }) {
             Your money, <span>at a glance.</span>
           </h1>
           <p className="page-subtitle">
-            A clearer view of where you are this month.
+            Monthly summary of your income, spending, and balance.
           </p>
         </div>
         <button

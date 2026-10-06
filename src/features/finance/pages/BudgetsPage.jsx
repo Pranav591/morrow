@@ -12,9 +12,12 @@ const marks = {
   Lifestyle: "✦",
 };
 
-function BudgetsPage({ transactions, budgets, updateBudget }) {
+function BudgetsPage({ transactions, budgets, updateBudget, selectedMonth }) {
   const [editing, setEditing] = useState(null);
   const [draft, setDraft] = useState("");
+  const budgetMonth = selectedMonth
+    ? new Date(`${selectedMonth}-01T00:00:00`)
+    : new Date();
   const spent = (category) =>
     transactions
       .filter((item) => item.type === "expense" && item.category === category)
@@ -47,7 +50,7 @@ function BudgetsPage({ transactions, budgets, updateBudget }) {
           </p>
         </div>
         <div className="budget-month-pill">
-          {monthLabel()} <span>⌄</span>
+          {monthLabel(budgetMonth)} <span>⌄</span>
         </div>
       </div>
       <section className="budget-overview">
@@ -201,9 +204,8 @@ function BudgetsPage({ transactions, budgets, updateBudget }) {
       <div className="budgets-tip">
         <span className="tip-mark">✳</span>
         <p>
-          <strong>A gentle reminder</strong> Budgets are here to help you notice
-          patterns, not make you feel guilty. You can change any limit whenever
-          you need to.
+          Keep your budget realistic and adjust it anytime as your spending
+          changes.
         </p>
         <button
           className="text-link"

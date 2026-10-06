@@ -128,7 +128,7 @@ function TransactionsPage({
             Transactions<span className="heading-period">.</span>
           </h1>
           <p className="page-subtitle">
-            Every little detail, all in one place.
+            Track your transactions in a single, clean view.
           </p>
         </div>
         <div className="heading-actions">

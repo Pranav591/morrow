@@ -2,6 +2,426 @@
   "balanceAdjustment": -45277.66,
   "transactions": [
     {
+      "id": "csv-1791303597342-41",
+      "name": "PURVI M BHAT",
+      "category": "Income",
+      "account": "UPI",
+      "date": "2026-10-06",
+      "amount": 2500,
+      "type": "income",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-40",
+      "name": "Mrs ASHOKA",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 135,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-39",
+      "name": "BMRCL PATTANAGERE",
+      "category": "Transport",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 40,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-38",
+      "name": "TATA STARBUCKS PRIVATE LIMITED",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 271,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-37",
+      "name": "Wow Momo Foods Private Limited",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 523.96,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-36",
+      "name": "CHARVI GLOBEL TECH",
+      "category": "Shopping",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 126,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-35",
+      "name": "Jeeva Tea Stall",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 25,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-34",
+      "name": "Saloni Mayani",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 110,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-33",
+      "name": "SRINIVAS R",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 52,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-32",
+      "name": "KPN FARM FRESH",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 43.7,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-31",
+      "name": "SANJU TIWARI",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-06",
+      "amount": 110,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-30",
+      "name": "Sri Venkateswara condiments general Store",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-05",
+      "amount": 25,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-29",
+      "name": "JUSTVEND PRIVATE LIMITED",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-05",
+      "amount": 104,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-28",
+      "name": "MOHAMMED IMRAN",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-05",
+      "amount": 290,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-27",
+      "name": "Sri Venkateswara condiments general Store",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-05",
+      "amount": 35,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-26",
+      "name": "VENKATA SUBBA REDDY GUNTAKA",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-04",
+      "amount": 20,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-25",
+      "name": "Jeeva Tea Stall",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-04",
+      "amount": 25,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-24",
+      "name": "RBL BANK LIMITED",
+      "category": "Bills",
+      "account": "Debit card",
+      "date": "2026-10-04",
+      "amount": 100,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-23",
+      "name": "Aladdin Shawarma CR VENTURES",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-04",
+      "amount": 448,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-22",
+      "name": "Kaushik Ganiga",
+      "category": "Income",
+      "account": "UPI",
+      "date": "2026-10-04",
+      "amount": 224,
+      "type": "income",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-21",
+      "name": "D L Corner",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-04",
+      "amount": 65,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-20",
+      "name": "Sri Venkateswara condiments general Store",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-03",
+      "amount": 35,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-19",
+      "name": "VENKATA SUBBA REDDY GUNTAKA",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-03",
+      "amount": 40,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-18",
+      "name": "Sri Venkateswara condiments general Store",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-03",
+      "amount": 25,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-17",
+      "name": "Kaushik Ganiga",
+      "category": "Income",
+      "account": "UPI",
+      "date": "2026-10-02",
+      "amount": 254,
+      "type": "income",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-16",
+      "name": "VENKATA SUBBA REDDY GUNTAKA",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-02",
+      "amount": 42,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-15",
+      "name": "Sri Venkateswara condiments general Store",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-02",
+      "amount": 10,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-14",
+      "name": "MANJULA D",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-02",
+      "amount": 57,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-13",
+      "name": "Pragun Shrestha",
+      "category": "Income",
+      "account": "UPI",
+      "date": "2026-10-02",
+      "amount": 57,
+      "type": "income",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-12",
+      "name": "Sri Venkateswara condiments general Store",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-02",
+      "amount": 25,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-11",
+      "name": "Pragun Shrestha",
+      "category": "Income",
+      "account": "UPI",
+      "date": "2026-10-02",
+      "amount": 50,
+      "type": "income",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-10",
+      "name": "R RAMYA",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-02",
+      "amount": 615,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-9",
+      "name": "TURKISH BOUNTY",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-02",
+      "amount": 45,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-8",
+      "name": "SRIKANTH M V",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-02",
+      "amount": 55,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-7",
+      "name": "SRIKANTH M V",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-01",
+      "amount": 52,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-6",
+      "name": "unique shrestha",
+      "category": "Income",
+      "account": "UPI",
+      "date": "2026-10-01",
+      "amount": 120,
+      "type": "income",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-5",
+      "name": "MOHAMMED IMRAN",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-01",
+      "amount": 230,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-4",
+      "name": "D L Corner",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-01",
+      "amount": 50,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-3",
+      "name": "Abinash tamang",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-01",
+      "amount": 150,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-2",
+      "name": "Sri Venkateswara condiments general Store",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-01",
+      "amount": 32,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-1",
+      "name": "NANJUNDA SWAMY N",
+      "category": "Lifestyle",
+      "account": "Debit card",
+      "date": "2026-10-01",
+      "amount": 800,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
+      "id": "csv-1791303597342-0",
+      "name": "HEISETASSE BEVERAGES PVT LTD",
+      "category": "Food & drink",
+      "account": "Debit card",
+      "date": "2026-10-01",
+      "amount": 858.99,
+      "type": "expense",
+      "note": "Imported from CSV"
+    },
+    {
       "name": "Auto",
       "amount": 52,
       "category": "Transport",

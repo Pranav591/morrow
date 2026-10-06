@@ -315,10 +315,10 @@ function FinanceApp() {
           <div className="note-icon">
             <CreditCard size={16} />
           </div>
-          <strong>Money, in perspective.</strong>
-          <p>A little clarity goes a long way.</p>
+          <strong>Budget check</strong>
+          <p>Keep an eye on your monthly plan.</p>
           <NavLink to="/budgets">
-            Review your budgets <ArrowUpRight size={13} />
+            View budgets <ArrowUpRight size={13} />
           </NavLink>
         </div>
         <div className="sidebar-bottom">
@@ -451,7 +451,9 @@ function FinanceApp() {
             />
             <Route
               path="/budgets"
-              element={<BudgetsPage {...monthFinance} />}
+              element={
+                <BudgetsPage {...monthFinance} selectedMonth={selectedMonth} />
+              }
             />
             <Route
               path="/reports"
